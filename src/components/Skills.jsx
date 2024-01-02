@@ -4,9 +4,12 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import FireBase from '../assets/firebase.png';
+import Python from '../assets/python.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Flask from '../assets/flask.png';
+import Sql from '../assets/sql.png';
+
 
 const Skills = () => {
   return (
@@ -24,24 +27,24 @@ const Skills = () => {
                   <p className='my-4'>HTML</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={JavaScript} alt="Javascript icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={GitHub} alt="Github icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <img className='w-20 mx-auto' src={Python} alt="Python icon" />
+                  <p className='my-4'>PYTHON</p>
               </div>
               
               
@@ -50,8 +53,12 @@ const Skills = () => {
                   <p className='my-4'>TAILWIND</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
+                  <img className='w-20 mx-auto' src={Flask} alt="Flask icon" />
+                  <p className='my-4'>Flask</p>
+              </div>
+              <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Sql} alt="Sql icon" />
+                  <p className='my-4'>Sql</p>
               </div>
           </div>
       </div>
