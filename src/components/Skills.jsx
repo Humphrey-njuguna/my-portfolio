@@ -8,7 +8,9 @@ import Python from '../assets/python.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Flask from '../assets/flask.png';
-import Sql from '../assets/sql.png';
+import Figma from '../assets/figma.png';
+import Ubuntu from '../assets/ubuntu.png';
+import SQLAlchemy from '../assets/SQLAlchemy.png';
 
 
 const Skills = () => {
@@ -57,8 +59,16 @@ const Skills = () => {
                   <p className='my-4'>Flask</p>
               </div>
               <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Sql} alt="Sql icon" />
-                  <p className='my-4'>Sql</p>
+                  <img className='w-20 mx-auto' src={SQLAlchemy} alt="SQLAlchemy icon" />
+                  <p className='my-4'>SQLAlchemy</p>
+              </div>
+              <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Figma} alt="figma icon" />
+                  <p className='my-4'>Figma</p>
+              </div>
+              <div className='shadow-md shadow-[#486d9c] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Ubuntu} alt="ubuntu icon" />
+                  <p className='my-4'>Ubuntu</p>
               </div>
           </div>
       </div>
