@@ -7,7 +7,7 @@ import ReactImg from '../assets/react.png';
 import Python from '../assets/python.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Flask from '../assets/flask.png';
+import Flask from '../assets/flask.png';                      
 import Figma from '../assets/figma.png';
 import Ubuntu from '../assets/ubuntu.png';
 import SQLAlchemy from '../assets/SQLAlchemy.png';
