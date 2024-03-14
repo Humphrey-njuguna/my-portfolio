@@ -96,7 +96,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#27b2b9]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://docs.google.com/document/d/1x8Rd8BVFBdUytk8TBuTqw_hisGDek-zUYzzHAcfMtIw/'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

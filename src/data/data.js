@@ -29,8 +29,8 @@ export const data=[
     //     name:"React JS Application",
     //     image:Bots ,
     //     github:"",
-    //     live:"",
-    // },
+        //     live:"",
+        // },
 
 
 ]
